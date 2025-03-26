@@ -57,7 +57,7 @@ hiccups-legacy-wiki/
 ## Live Demo
 
 Access the wiki at:  
-[https://capitaojob.github.io/HiccupsLegacyWiki](https://capitaojob.github.io/HiccupsLegacyWiki)
+[https://capitaojob.github.io/hiccups-legacy-wiki/](https://capitaojob.github.io/hiccups-legacy-wiki/)
 
 ## Contributing
 
