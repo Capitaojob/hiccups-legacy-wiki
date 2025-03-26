@@ -1,0 +1,151 @@
+.dragons-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.dragon-card {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border-left: 5px solid var(--dragon-green);
+  position: relative;
+  overflow: hidden;
+}
+
+.dragon-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, var(--ember-orange), var(--gold-accent));
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.dragon-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.dragon-card:hover::before {
+  transform: scaleX(1);
+}
+
+.class-icon {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.dragon-card:hover .class-icon {
+  transform: scale(1.1);
+}
+
+.dragon-name {
+  font-family: "Cinzel Decorative", serif;
+  color: var(--viking-blue);
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  position: relative;
+  display: inline-block;
+}
+
+.dragon-name::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 50%;
+  height: 2px;
+  background: var(--gold-accent);
+  transition: width 0.3s ease;
+}
+
+.dragon-card:hover .dragon-name::after {
+  width: 100%;
+}
+
+.dragon-class {
+  font-family: "Cinzel", serif;
+  color: var(--iron);
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.dragon-class::before {
+  content: "Class: ";
+  color: var(--ember-orange);
+  font-weight: normal;
+}
+
+.loading {
+  text-align: center;
+  padding: 2rem;
+  font-family: "Cinzel", serif;
+  color: var(--viking-blue);
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.page-header h1 {
+  font-family: "Cinzel Decorative", serif;
+  font-size: 2.5rem;
+  color: var(--viking-blue);
+  display: inline-block;
+}
+
+.page-header h1::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 3px;
+  background: var(--gold-accent);
+}
+
+.boulder {
+  border-left: 5px solid var(--boulder);
+}
+
+.strike {
+  border-left: 5px solid var(--strike);
+}
+
+.tidal {
+  border-left: 5px solid var(--tidal);
+}
+
+.stoker {
+  border-left: 5px solid var(--stoker);
+}
+
+.sharp {
+  border-left: 5px solid var(--sharp);
+}
+
+.mystery {
+  border-left: 5px solid var(--mystery);
+}
+
+.tracker {
+  border-left: 5px solid var(--tracker);
+}

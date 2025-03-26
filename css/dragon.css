@@ -1,0 +1,153 @@
+.dragon-detail {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.dragon-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid var(--parchment);
+  padding-bottom: 1.5rem;
+}
+
+.dragon-class-icon {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+}
+
+.dragon-title {
+  flex: 1;
+  min-width: 300px;
+}
+
+.dragon-name {
+  font-family: "Cinzel Decorative", serif;
+  color: var(--viking-blue);
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.dragon-class {
+  font-family: "Cinzel", serif;
+  color: var(--gold-accent);
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.dragon-info-section {
+  margin-bottom: 2rem;
+}
+
+.dragon-info-section h2 {
+  font-family: "Cinzel", serif;
+  color: var(--viking-blue);
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--parchment);
+}
+
+.dragon-description {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.dragon-habitat,
+.dragon-foods {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.habitat-tag,
+.food-tag {
+  background: var(--dragon-green);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.food-tag {
+  background: var(--ember-orange);
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 2rem;
+  color: var(--viking-blue);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.back-link:hover {
+  color: var(--ember-orange);
+}
+
+.back-link::before {
+  content: "← ";
+}
+
+.error-message {
+  text-align: center;
+  padding: 2rem;
+  font-family: "Cinzel", serif;
+  color: var(--viking-blue);
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+.boulder {
+  border-left: 6px solid var(--boulder);
+}
+
+.strike {
+  border-left: 6px solid var(--strike);
+}
+
+.tidal {
+  border-left: 6px solid var(--tidal);
+}
+
+.stoker {
+  border-left: 6px solid var(--stoker);
+}
+
+.sharp {
+  border-left: 6px solid var(--sharp);
+}
+
+.mystery {
+  border-left: 6px solid var(--mystery);
+}
+
+.tracker {
+  border-left: 6px solid var(--tracker);
+}
+
+@media (max-width: 768px) {
+  .dragon-header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .dragon-title {
+    min-width: auto;
+  }
+
+  .dragon-name {
+    font-size: 2rem;
+  }
+}

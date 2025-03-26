@@ -1,0 +1,156 @@
+{
+   "dragons": [
+       {
+           "id": 1,
+           "name": "Night Fury",
+           "class": "Strike",
+           "description": "Dragon from the Hiccup's Legacy mod",
+           "habitat": ["mountain", "plains"],
+           "foods": ["cod", "salmon"]
+       },
+       {
+           "id": 2,
+           "name": "Light Fury",
+           "class": "Strike",
+           "description": "Dragon from the Hiccup's Legacy mod",
+           "habitat": ["mountain", "plains"],
+           "foods": ["cod", "salmon"]
+       },
+       {
+           "id": 3,
+           "name": "Deadly Nadder",
+           "class": "Tracker",
+           "description": "Dragon from the Hiccup's Legacy mod",
+           "habitat": ["mountain", "plains"],
+           "foods": ["cod", "salmon"]
+       },
+       {
+           "id": 4,
+           "name": "Hideous Zippleback",
+           "class": "Mystery",
+           "description": "Dragon from the Hiccup's Legacy mod",
+           "habitat": ["mountain", "plains"],
+           "foods": ["cod", "salmon"]
+       },
+       {
+           "id": 5,
+           "name": "Gronckle",
+           "class": "Boulder",
+           "description": "Dragon from the Hiccup's Legacy mod",
+           "habitat": ["mountain", "plains"],
+           "foods": ["cod", "salmon"]
+       },
+       {
+           "id": 6,
+           "name": "Monstrous Nightmare",
+           "class": "Stoker",
+           "description": "Dragon from the Hiccup's Legacy mod",
+           "habitat": ["mountain", "plains"],
+           "foods": ["cod", "salmon"]
+       },
+       {
+           "id": 7,
+           "name": "Whispering Death",
+           "class": "Boulder",
+           "description": "Dragon from the Hiccup's Legacy mod",
+           "habitat": ["mountain", "plains"],
+           "foods": ["cod", "salmon"]
+       },
+       {
+           "id": 8,
+           "name": "Smothering Smokebreath",
+           "class": "Mystery",
+           "description": "Dragon from the Hiccup's Legacy mod",
+           "habitat": ["mountain", "plains"],
+           "foods": ["cod", "salmon"]
+       },
+       {
+           "id": 9,
+           "name": "Flightmare",
+           "class": "Mystery",
+           "description": "Dragon from the Hiccup's Legacy mod",
+           "habitat": ["mountain", "plains"],
+           "foods": ["cod", "salmon"]
+       },
+       {
+           "id": 10,
+           "name": "Hobgobbler",
+           "class": "Mystery",
+           "description": "Dragon from the Hiccup's Legacy mod",
+           "habitat": ["mountain", "plains"],
+           "foods": ["cod", "salmon"]
+       },
+       {
+           "id": 11,
+           "name": "Night Terror",
+           "class": "Mystery",
+           "description": "Dragon from the Hiccup's Legacy mod",
+           "habitat": ["mountain", "plains"],
+           "foods": ["cod", "salmon"]
+       },
+       {
+           "id": 12,
+           "name": "Terrible Terror",
+           "class": "Stoker",
+           "description": "Dragon from the Hiccup's Legacy mod",
+           "habitat": ["mountain", "plains"],
+           "foods": ["cod", "salmon"]
+       },
+       {
+           "id": 13,
+           "name": "Fireworm",
+           "class": "Stoker",
+           "description": "Dragon from the Hiccup's Legacy mod",
+           "habitat": ["mountain", "plains"],
+           "foods": ["cod", "salmon"]
+       },
+       {
+           "id": 14,
+           "name": "Death Song",
+           "class": "Mystery",
+           "description": "Dragon from the Hiccup's Legacy mod",
+           "habitat": ["mountain", "plains"],
+           "foods": ["cod", "salmon"]
+       },
+       {
+           "id": 15,
+           "name": "Speed Stinger",
+           "class": "Sharp",
+           "description": "Dragon from the Hiccup's Legacy mod",
+           "habitat": ["mountain", "plains"],
+           "foods": ["cod", "salmon"]
+       },
+       {
+           "id": 16,
+           "name": "Songwing",
+           "class": "Mystery",
+           "description": "Dragon from the Hiccup's Legacy mod",
+           "habitat": ["mountain", "plains"],
+           "foods": ["cod", "salmon"]
+       },
+       {
+           "id": 17,
+           "name": "Grim Gnasher",
+           "class": "Mystery",
+           "description": "Dragon from the Hiccup's Legacy mod",
+           "habitat": ["mountain", "plains"],
+           "foods": ["cod", "salmon"]
+       },
+       {
+           "id": 18,
+           "name": "Snow Wraith",
+           "class": "Strike",
+           "description": "Dragon from the Hiccup's Legacy mod",
+           "habitat": ["mountain", "plains"],
+           "foods": ["cod", "salmon"]
+       },
+       {
+           "id": 19,
+           "name": "Red Death",
+           "class": "Stoker",
+           "description": "Dragon from the Hiccup's Legacy mod",
+           "habitat": ["mountain", "plains"],
+           "foods": ["cod", "salmon"]
+       }
+   ]
+}
