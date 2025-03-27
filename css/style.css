@@ -1,228 +1,262 @@
 /* Base Reset */
 * {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
- }
- 
- :root {
-   /* --viking-blue: #1a3a5f; */
-   --viking-blue: #4e4128;
-   /* --dragon-green: #3a6b3a; */
-   --dragon-green: #36180a;
-   --ember-orange: #d45d2e;
-   --parchment: #f5e8c9;
-   /* --iron: #5a5a5a; */
-   --iron: #2b2b2b;
-   --gold-accent: #d4af37;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-   --boulder: #a15011;
-   --strike: #b83987;
-   --tidal: #1c0f66;
-   --stoker: #ad1616;
-   --tracker: #c9ae17;
-   --mystery: #720858;
-   --sharp: #0f5a12;
- }
- 
- body {
-   font-family: 'Raleway', 'Open Sans', sans-serif;
-   background-color: var(--parchment);
-   color: #2a2a2a;
-   line-height: 1.6;
-   background-attachment: fixed;
- }
- 
- /* Header */
- header {
-   background: linear-gradient(135deg, var(--viking-blue), var(--dragon-green));
-   color: white;
-   display: flex;
-   flex-wrap: wrap;
-   align-items: center;
-   justify-content: space-between;
-   padding: 1rem 2rem;
-   border-bottom: 4px solid var(--gold-accent);
-   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
- }
- 
- header .logo {
-   max-width: 220px;
-   width: fit-content;
-   filter: drop-shadow(0 0 4px rgba(212, 175, 55, 0.7));
-   font-family: 'Cinzel Decorative', 'Cinzel', serif;
- }
- 
- nav ul {
-   list-style: none;
-   display: flex;
-   gap: 1.5rem;
- }
- 
- nav a {
-   color: white;
-   text-decoration: none;
-   font-weight: 600;
-   font-size: 1.1rem;
-   text-transform: uppercase;
-   letter-spacing: 1px;
-   padding: 0.5rem 1rem;
-   border-radius: 4px;
-   transition: all 0.3s ease;
-   position: relative;
- }
- 
- nav a:hover {
-   color: var(--gold-accent);
-   background: rgba(0, 0, 0, 0.2);
- }
- 
- nav a::after {
-   content: '';
-   position: absolute;
-   bottom: -4px;
-   left: 0;
-   width: 0;
-   height: 2px;
-   background: var(--gold-accent);
-   transition: width 0.3s ease;
- }
- 
- nav a:hover::after {
-   width: 100%;
- }
- 
- /* Main Content */
- main {
-   padding: 2rem;
-   max-width: 1200px;
-   margin: 0 auto;
- }
- 
- .intro {
-   text-align: center;
-   margin-bottom: 3rem;
-   padding: 2rem;
-   background: rgba(255, 255, 255, 0.8);
-   border-radius: 8px;
-   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
- }
- 
- .intro h1 {
-   font-family: 'Cinzel Decorative', 'Cinzel', serif;
-   font-size: 3rem;
-   margin-bottom: 1rem;
-   color: var(--viking-blue);
-   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
-   position: relative;
-   display: inline-block;
- }
- 
- .intro h1::after {
-   content: '';
-   position: absolute;
-   bottom: -10px;
-   left: 25%;
-   width: 50%;
-   height: 3px;
-   background: linear-gradient(90deg, transparent, var(--gold-accent), transparent);
- }
- 
- /* Dragon-themed Cards */
- .card {
-   background: white;
-   border-radius: 8px;
-   padding: 1.5rem;
-   margin-bottom: 2rem;
-   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-   border-top: 4px solid var(--dragon-green);
-   transition: transform 0.3s ease;
- }
- 
- .card:hover {
-   transform: translateY(-5px);
- }
- 
- .card h2 {
-   color: var(--viking-blue);
-   font-family: 'Cinzel', serif;
-   border-bottom: 2px solid var(--parchment);
-   padding-bottom: 0.5rem;
-   margin-bottom: 1rem;
- }
- 
- /* Footer */
- footer {
-   background: linear-gradient(to right, var(--viking-blue), var(--iron));
-   color: white;
-   text-align: center;
-   padding: 1.5rem;
-   position: relative;
-   width: 100%;
-   border-top: 3px solid var(--gold-accent);
- }
- 
- footer::before {
-   content: '';
-   position: absolute;
-   top: -15px;
-   left: 0;
-   right: 0;
-   height: 15px;
-   background: url('https://example.com/dragon-scale-pattern.png') repeat-x;
- }
- 
- /* Buttons */
- .btn {
-   display: inline-block;
-   padding: 0.8rem 1.5rem;
-   background: var(--ember-orange);
-   color: white;
-   border: none;
-   border-radius: 4px;
-   font-weight: bold;
-   text-transform: uppercase;
-   letter-spacing: 1px;
-   cursor: pointer;
-   transition: all 0.3s ease;
-   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
- }
- 
- .btn:hover {
-   background: var(--viking-blue);
-   transform: translateY(-2px);
-   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
- }
- 
- /* Responsive adjustments */
- @media (max-width: 768px) {
-   header {
-     flex-direction: column;
-     text-align: center;
-     padding: 1rem;
-   }
- 
-   nav ul {
-     flex-direction: column;
-     gap: 0.5rem;
-     margin-top: 1rem;
-   }
- 
-   .intro h1 {
-     font-size: 2rem;
-   }
- }
- 
- /* Special Elements */
- .dragon-icon {
-   color: var(--ember-orange);
-   margin: 0 0.3rem;
- }
- 
- .viking-divider {
-   height: 2px;
-   background: linear-gradient(90deg, transparent, var(--gold-accent), transparent);
-   margin: 2rem 0;
-   border: none;
- }
- 
+:root {
+  /* --viking-blue: #1a3a5f; */
+  --viking-blue: #4e4128;
+  /* --dragon-green: #3a6b3a; */
+  --dragon-green: #36180a;
+  --ember-orange: #d45d2e;
+  --parchment: #f5e8c9;
+  /* --iron: #5a5a5a; */
+  --iron: #2b2b2b;
+  --gold-accent: #d4af37;
+
+  --boulder: #a15011;
+  --strike: #b83987;
+  --tidal: #1c0f66;
+  --stoker: #ad1616;
+  --tracker: #c9ae17;
+  --mystery: #720858;
+  --sharp: #0f5a12;
+}
+
+body {
+  font-family: "Raleway", "Open Sans", sans-serif;
+  background-color: var(--parchment);
+  color: #2a2a2a;
+  line-height: 1.6;
+  background-attachment: fixed;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, var(--viking-blue), var(--dragon-green));
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  border-bottom: 4px solid var(--gold-accent);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+header .logo {
+  max-width: 220px;
+  width: fit-content;
+  filter: drop-shadow(0 0 4px rgba(212, 175, 55, 0.7));
+  font-family: "Cinzel Decorative", "Cinzel", serif;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+nav a:hover {
+  color: var(--gold-accent);
+  background: rgba(0, 0, 0, 0.2);
+}
+
+nav a::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--gold-accent);
+  transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+/* Main Content */
+main {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.intro h1 {
+  font-family: "Cinzel Decorative", "Cinzel", serif;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: var(--viking-blue);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  position: relative;
+  display: inline-block;
+}
+
+.intro h1::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 25%;
+  width: 50%;
+  height: 3px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--gold-accent),
+    transparent
+  );
+}
+
+/* Dragon-themed Cards */
+.card {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-top: 4px solid var(--dragon-green);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h2 {
+  color: var(--viking-blue);
+  font-family: "Cinzel", serif;
+  border-bottom: 2px solid var(--parchment);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(to right, var(--viking-blue), var(--iron));
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  position: relative;
+  width: 100%;
+  border-top: 3px solid var(--gold-accent);
+}
+
+footer::before {
+  content: "";
+  position: absolute;
+  top: -15px;
+  left: 0;
+  right: 0;
+  height: 15px;
+  background: url("https://example.com/dragon-scale-pattern.png") repeat-x;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background: var(--ember-orange);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+  background: var(--viking-blue);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Special Elements */
+.dragon-icon {
+  color: var(--ember-orange);
+  margin: 0 0.3rem;
+}
+
+.viking-divider {
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--gold-accent),
+    transparent
+  );
+  margin: 2rem 0;
+  border: none;
+}
+
+/* Footer Links */
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.footer-links a {
+  color: var(--gold-accent);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  .intro h1 {
+    font-size: 2rem;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+  }
+}

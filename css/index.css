@@ -125,25 +125,6 @@ cite {
   font-style: normal;
 }
 
-/* Footer Links */
-.footer-links {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  margin-bottom: 1rem;
-}
-
-.footer-links a {
-  color: var(--gold-accent);
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.footer-links a:hover {
-  color: white;
-  text-decoration: underline;
-}
-
 /* Subtitle */
 .subtitle {
   font-size: 1.2rem;
@@ -163,11 +144,5 @@ cite {
   blockquote {
     font-size: 1.2rem;
     padding: 1rem;
-  }
-
-  .footer-links {
-    flex-direction: column;
-    gap: 0.5rem;
-    align-items: center;
   }
 }

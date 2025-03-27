@@ -1,0 +1,106 @@
+.guide-section {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-left: 6px solid var(--ember-orange);
+}
+
+.guide-section h1 {
+   font-family: "Cinzel Decorative", serif;
+   color: var(--viking-blue);
+   font-size: 2.3rem;
+}
+
+.guide-section h2 {
+  font-family: "Cinzel Decorative", serif;
+  color: var(--viking-blue);
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid var(--parchment);
+  padding-bottom: 0.5rem;
+}
+
+.guide-section h3 {
+  font-family: "Cinzel", serif;
+  color: var(--dragon-green);
+  font-size: 1.5rem;
+  margin: 1.5rem 0 1rem;
+}
+
+.dragon-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.dragon-tag {
+  background: var(--viking-blue);
+  color: white;
+  padding: 0.5rem;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.keybind {
+  display: inline-block;
+  background: var(--iron);
+  color: white;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-family: monospace;
+  margin: 0 0.2rem;
+}
+
+.recipe {
+  background: rgba(0, 0, 0, 0.05);
+  padding: 1rem;
+  border-radius: 4px;
+  margin: 1rem 0;
+  border-left: 3px solid var(--gold-accent);
+}
+
+.recipe-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.recipe-item img {
+  width: 32px;
+  height: 32px;
+  margin-right: 0.5rem;
+}
+
+.warning {
+  color: var(--ember-orange);
+  font-weight: 600;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.feature-card {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 1rem;
+  border-radius: 4px;
+  border-top: 3px solid var(--dragon-green);
+}
+
+@media (max-width: 768px) {
+  .dragon-list {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+}
