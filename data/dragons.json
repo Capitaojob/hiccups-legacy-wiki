@@ -4,7 +4,7 @@
            "id": 1,
            "name": "Night Fury",
            "class": "Strike",
-           "description": "The Night Fury is a medium sized dragon that can be rarely found in taiga forests.<br /><br />Being the fastest dragon and having a powerful attack, he is not to be messed with.<br /><br />His plasma blast deals more damage when it hits the target directly instead of hitting blocks and exploding near the target. They have a secondary ability of going invisible with lightning. Although once thought to be demons, these creatures are loyal friends that love honey and fish",
+           "description": "A ghost in the night sky, a whisper of wings before disaster strikes—if you see one, it's already too late. The Night Fury is the fastest dragon known to Vikings, built for speed, stealth, and sheer devastation. Found rarely in taiga forests, this elusive creature wields plasma blasts with uncanny precision—striking harder when hitting its mark rather than simply exploding nearby.<br /><br />But don't be fooled by old tales calling them demons; earn their trust, and you'll have a fiercely loyal companion who just happens to have a weakness for fish and honey. Oh, and watch out—when cloaked in lightning, they vanish into thin air.",
            "habitat": ["taiga forest", "coniferous forest"],
            "foods": ["cod", "salmon", "honey comb"]
        },
@@ -12,7 +12,7 @@
            "id": 2,
            "name": "Light Fury",
            "class": "Strike",
-           "description": "Basically exactly like the Night Fury, but the secondary attack does not cast lightning to make it invisible",
+           "description": "Like the Night Fury, but with a shimmer as bright as the stars. These mysterious dragons are just as fast and powerful, though their disappearing act is a bit different — no crackling lightning, just a graceful fade into nothingness. If you're lucky enough to spot one, consider it a rare gift.<br /><br />They share their cousin's love for fish and honey, but don't expect them to stick around long.",
            "habitat": ["taiga forest", "coniferous forest"],
            "foods": ["cod", "salmon", "honeycomb"]
        },
@@ -20,7 +20,7 @@
            "id": 3,
            "name": "Deadly Nadder",
            "class": "Tracker",
-           "description": "The Deadly Nadder is a medium sized Tracker class dragon that can be found in most forests.<br /><br />Formerly from the Sharp class, you should be aware of the spikes, specially on the tail.<br /><br />Besides the tail, his fire breathing habits need to be kept in mind when near this magnificent creature. One blow and you'll be left with less members than Gobber.",
+           "description": "A beauty with a bite — literally. Once considered part of the Sharp class (and for good reason), the Deadly Nadder is covered in razor-sharp spines, particularly along its tail. Cross one, and you might find yourself with fewer limbs than Gobber.<br /><br />Highly intelligent and agile, this dragon boasts pinpoint accuracy when launching its deadly tail spikes. Add to that its fire-breathing tendencies, and you've got a creature as magnificent as it is dangerous. Found in forests, it has a taste for raw chicken, salmon, and mutton.",
            "habitat": ["forests"],
            "foods": ["raw chicken", "salmon", "raw mutton"]
        },
@@ -28,7 +28,7 @@
            "id": 4,
            "name": "Hideous Zippleback",
            "class": "Mystery",
-           "description": "A large size, two headed Mystery class dragon, these guys aren't to be fooled with. One head breaths gas, the other lights it. Formidable lonely predators that comes out after sundown, they can often use the gas to disorient the prey or to obscure itself from view.<br /><br />Mostly found hunting in swamps and forests, they like to eat fish, honeycombs and pork.",
+           "description": "Two heads, double the trouble. The Hideous Zippleback is a master of deception — one head spews a thick, noxious gas while the other ignites it, turning the battlefield into a firestorm. Found lurking in swamps and savannas, they are patient hunters, emerging at night to disorient their prey before striking.<br /><br />If you ever find yourself lost in a dense fog that wasn't there a moment ago, best start running.",
            "habitat": ["savanna", "swamps"],
            "foods": ["cod", "honeycomb", "porkchop"]
        },
@@ -36,7 +36,7 @@
            "id": 5,
            "name": "Gronckle",
            "class": "Boulder",
-           "description": "Being a medium sized Boulder class dragon, they have massiwe heads and a giant mace-like tail. They can be pretty docile if you earn it.<br /><br />Their diet is based on rocks, so most of them will make them happy.<br /><br />While they are not fast, they are very good at maneuverability, being able to fly backwards and sideways. They can be fed Gronckle Iron Mixture for a strong new type of metal.",
+           "description": "Don't let its slow, boulder-like appearance fool you — this dragon is surprisingly nimble in the air, able to fly sideways, backwards, and in loops that would make even the best Viking pilot dizzy. With a head like a battering ram and a tail to match, a Gronckle is built like a living wrecking ball.<br /><br />Their diet? Rocks. Lots of rocks. And if you're lucky, you can feed them a Gronckle Iron Mixture to create an incredibly strong metal.",
            "habitat": ["plains", "badlands"],
            "foods": ["stone", "deepslate", "cobblestone", "other rocks"]
        },
@@ -44,7 +44,7 @@
            "id": 6,
            "name": "Monstrous Nightmare",
            "class": "Stoker",
-           "description": "This large, agressive and territorial Stoker class dragon never runs from a fight, being one of the most feared species in Berk. To set themselwes on fire, they produce a highly flamable gel that covers its entity body, making it easy to burst into flames.<br /><br />That gel is a valuable resource and can be collected with an empty canister.<br /><br />They can be found in forests and dry, deserted areas, having been seen on caves too. Their diet consists of apples, mutton and beef, with yaks not being out of the menu, so take care of your livestock.",
+           "description": "If there's one dragon you don't want to anger, it's the Monstrous Nightmare. Massive, aggressive, and fearless, this fire-loving beast coats itself in a highly flammable gel, allowing it to set itself ablaze mid-battle. You'd be wise to keep your distance unless you fancy becoming part of a bonfire.<br /><br />Valuable resource alert: that fiery gel can be collected with an empty canister. Just be sure to stay in one piece while doing it.",
            "habitat": ["forests", "badlands", "desert"],
            "foods": ["apple", "mutton", "beef"]
        },
@@ -52,7 +52,7 @@
            "id": 7,
            "name": "Whispering Death",
            "class": "Boulder",
-           "description": "These 20 meters long Boulder class dragons like to live underground. Even tho they have a poor eye sight, a secondary row of rotating teeth and hard scales more than makes up for it. Vikings say there is a way to identify it coming: whispering sounds and a rumbling on the ground.<br /><br />Having the strongest jaw of all the dragons, they don't have much weaknesses beside the blindness, so be careful and try to avoid it when exploring caves. Gobber's advice: They only know one thing, and that would be killing.",
+           "description": "There's an old Viking saying: “If the ground rumbles and whispers, run.” The Whispering Death is a subterranean nightmare, tunneling through rock and soil with ease. Poor eyesight doesn't slow it down — its rows of rotating teeth and iron-like scales make up for that.<br /><br />It has the strongest bite of any dragon, and to make matters worse, it never stops moving. If you hear that eerie whisper, you're already too close.",
            "habitat": ["dark caves"],
            "foods": ["none"]
        },
@@ -60,24 +60,24 @@
            "id": 8,
            "name": "Smothering Smokebreath",
            "class": "Mystery",
-           "description": "Dragon from the Hiccup's Legacy mod",
+           "description": "Small, swift, and sneaky, these little dragons are more than just a nuisance — they're master thieves, hoarding metal to build their nests. Alone, they can be pesky. In groups, they can blanket an entire battlefield in thick, impenetrable smoke, making them nearly impossible to fight.<br /><br />They favor fish and anything shiny, so guard your treasure carefully — or say goodbye to your weapons.",
            "habitat": ["mountain", "plains"],
-           "foods": ["cod", "salmon"]
+           "foods": ["cod", "salmon", "gold nugget", "iron nugget"]
        },
        {
            "id": 9,
            "name": "Flightmare",
            "class": "Mystery",
-           "description": "Dragon from the Hiccup's Legacy mod",
-           "habitat": ["mountain", "plains"],
-           "foods": ["cod", "salmon"]
+           "description": "A glowing specter in the night, the Flightmare is a dragon of legend. Its eerie blue glow comes from a diet rich in glowing algae, and its mist isn't just for show — it can paralyze prey (and Vikings) in their tracks.<br /><br />This dragon is as temperamental as it is territorial, fiercely guarding its algae supply. Many a Viking has been left “scared stiff” by its haunting presence, leading to centuries of ghost stories and spine-chilling warnings.",
+           "habitat": ["river sides", "jungles"],
+           "foods": ["glow berries", "glow ink sac"]
        },
        {
            "id": 10,
            "name": "Hobgobbler",
            "class": "Mystery",
-           "description": "Dragon from the Hiccup's Legacy mod",
-           "habitat": ["mountain", "plains"],
+           "description": "Tiny, gluttonous, and chaotic, Hobgobblers have a simple motto: “If it fits in my mouth, it's food.” This means they'll eat almost anything—including things they probably shouldn't. They may be small, but their insatiable appetite makes them unpredictable.<br /><br />Surprisingly loyal (and annoying), these little dragons will follow you around relentlessly if you feed them fish. Just don't leave them alone near your supplies, unless you enjoy discovering half-eaten weapons and missing valuables.",
+           "habitat": ["meadow", "mountain"],
            "foods": ["cod", "salmon"]
        },
        {
@@ -85,72 +85,72 @@
            "name": "Night Terror",
            "class": "Mystery",
            "description": "Dragon from the Hiccup's Legacy mod",
-           "habitat": ["mountain", "plains"],
-           "foods": ["cod", "salmon"]
+           "habitat": [],
+           "foods": []
        },
        {
            "id": 12,
            "name": "Terrible Terror",
            "class": "Stoker",
-           "description": "Dragon from the Hiccup's Legacy mod",
-           "habitat": ["mountain", "plains"],
-           "foods": ["cod", "salmon"]
+           "description": "This little guy is found almost anywhere. Contraty to what the name implies, they are neutral creatures, mostly oblivious until you disturb them. Their diet consists of mostly fish, chicken and bread. Their chirping can be annoying when in crowds.",
+           "habitat": ["mountains", "plains", "beaches"],
+           "foods": ["cod", "salmon", "chicken", "bread"]
        },
        {
            "id": 13,
            "name": "Fireworm",
            "class": "Stoker",
            "description": "Dragon from the Hiccup's Legacy mod",
-           "habitat": ["mountain", "plains"],
-           "foods": ["cod", "salmon"]
+           "habitat": [],
+           "foods": []
        },
        {
            "id": 14,
            "name": "Death Song",
            "class": "Mystery",
            "description": "Dragon from the Hiccup's Legacy mod",
-           "habitat": ["mountain", "plains"],
-           "foods": ["cod", "salmon"]
+           "habitat": [],
+           "foods": []
        },
        {
            "id": 15,
            "name": "Speed Stinger",
            "class": "Sharp",
            "description": "Dragon from the Hiccup's Legacy mod",
-           "habitat": ["mountain", "plains"],
-           "foods": ["cod", "salmon"]
+           "habitat": [],
+           "foods": []
        },
        {
            "id": 16,
            "name": "Songwing",
            "class": "Mystery",
            "description": "Dragon from the Hiccup's Legacy mod",
-           "habitat": ["mountain", "plains"],
-           "foods": ["cod", "salmon"]
+           "habitat": [],
+           "foods": []
        },
        {
            "id": 17,
            "name": "Grim Gnasher",
            "class": "Mystery",
            "description": "Dragon from the Hiccup's Legacy mod",
-           "habitat": ["mountain", "plains"],
-           "foods": ["cod", "salmon"]
+           "habitat": [],
+           "foods": []
        },
        {
            "id": 18,
            "name": "Snow Wraith",
            "class": "Strike",
            "description": "Dragon from the Hiccup's Legacy mod",
-           "habitat": ["mountain", "plains"],
-           "foods": ["cod", "salmon"]
+           "habitat": [],
+           "foods": []
        },
        {
            "id": 19,
            "name": "Red Death",
            "class": "Stoker",
            "description": "Dragon from the Hiccup's Legacy mod",
-           "habitat": ["mountain", "plains"],
-           "foods": ["cod", "salmon"]
+           "habitat": [],
+           "foods": []
        }
    ]
 }
