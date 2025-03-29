@@ -15,7 +15,6 @@ document.addEventListener("DOMContentLoaded", function () {
       return response.json();
     })
     .then((data) => {
-      console.log(data.dragons)
       const dragon = data.dragons.find((d) => d.id === Number(dragonId));
 
       if (!dragon) {
@@ -34,9 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const container = document.getElementById("dragonContainer");
 
     // Create image path based on class name
-    const classImagePath = `../images/classes/${dragon.class
-      .toLowerCase()
-      .replace(/\s+/g, "-")}.png`;
+    const classImagePath = `../images/classes/${dragon.class.toLowerCase().replace(/\s+/g, "-")}.png`;
 
     container.innerHTML = `
        <div class="dragon-detail ${dragon.class.toLowerCase()}">
@@ -56,18 +53,21 @@ document.addEventListener("DOMContentLoaded", function () {
          <div class="dragon-info-section">
            <h2>Habitat</h2>
            <div class="dragon-habitat">
-             ${dragon.habitat
-               .map((h) => `<span class="habitat-tag">${h}</span>`)
-               .join("")}
+             ${dragon.habitat.map((h) => `<span class="habitat-tag">${h}</span>`).join("")}
            </div>
          </div>
 
          <div class="dragon-info-section">
            <h2>Preferred Foods</h2>
            <div class="dragon-foods">
-             ${dragon.foods
-               .map((f) => `<span class="food-tag">${f}</span>`)
-               .join("")}
+             ${dragon.foods.map((f) => `<span class="food-tag">${f}</span>`).join("")}
+           </div>
+         </div>
+
+         <div class="dragon-info-section">
+           <h2>Tameable</h2>
+           <div class="dragon-tameable">
+             <span class="tameable-tag">${dragon.tameable}</span>
            </div>
          </div>
 

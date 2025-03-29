@@ -1,0 +1,148 @@
+.weapons-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+}
+
+.weapon-card {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  padding: 2rem;
+  margin-bottom: 3rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-left: 6px solid var(--ember-orange);
+  transition: transform 0.3s ease;
+}
+
+.weapon-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid var(--parchment);
+}
+
+.weapon-icon {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.3));
+}
+
+.weapon-title {
+  flex: 1;
+  min-width: 300px;
+}
+
+.weapon-name {
+  font-family: "Cinzel Decorative", serif;
+  color: var(--viking-blue);
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.weapon-type {
+  font-family: "Cinzel", serif;
+  color: var(--gold-accent);
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.weapon-section {
+  margin-bottom: 1.5rem;
+}
+
+.weapon-section h3 {
+  font-family: "Cinzel", serif;
+  color: var(--dragon-green);
+  font-size: 1.3rem;
+  margin-bottom: 0.8rem;
+  border-bottom: 1px solid var(--parchment);
+  padding-bottom: 0.3rem;
+}
+
+.modes-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.mode-card {
+  flex: 1;
+  min-width: 250px;
+  background: rgba(0, 0, 0, 0.05);
+  padding: 1rem;
+  border-radius: 4px;
+  border-left: 3px solid var(--viking-blue);
+}
+
+.mode-name {
+  font-weight: 600;
+  color: var(--viking-blue);
+  margin-bottom: 0.5rem;
+}
+
+.keybind {
+  display: inline-block;
+  background: var(--iron);
+  color: white;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-family: monospace;
+  margin: 0 0.2rem;
+}
+
+.recipe {
+  background: rgba(0, 0, 0, 0.05);
+  padding: 1rem;
+  border-radius: 4px;
+  margin: 1rem 0;
+  border-left: 3px solid var(--gold-accent);
+}
+
+.recipe img {
+  width: clamp(40%, 200px, 500px);
+  height: auto;
+}
+
+.recipe-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.damage-bar {
+  height: 20px;
+  width: 100%;
+  background: linear-gradient(to right, var(--ember-orange), var(--gold-accent));
+  border-radius: 10px;
+  margin: 0.5rem 0;
+  display: block;
+  position: relative;
+}
+
+.damage-label {
+  position: absolute;
+  right: 10px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  line-height: 20px;
+}
+
+@media (max-width: 768px) {
+  .weapon-header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .weapon-title {
+    min-width: auto;
+  }
+}

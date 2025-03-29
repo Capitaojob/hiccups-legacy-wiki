@@ -24,7 +24,7 @@
   left: 0;
   width: 100%;
   height: 4px;
-  background: linear-gradient(90deg, var(--ember-orange), var(--gold-accent));
+  /* background: linear-gradient(90deg, var(--ember-orange), var(--gold-accent)); */
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.3s ease;
@@ -126,26 +126,54 @@
   border-left: 5px solid var(--boulder);
 }
 
+.boulder::before {
+  background-color: var(--boulder);
+}
+
 .strike {
   border-left: 5px solid var(--strike);
+}
+
+.strike::before {
+  background-color: var(--strike);
 }
 
 .tidal {
   border-left: 5px solid var(--tidal);
 }
 
+.tidal::before {
+  background-color: var(--tidal);
+}
+
 .stoker {
   border-left: 5px solid var(--stoker);
+}
+
+.stoker::before {
+  background-color: var(--stoker);
 }
 
 .sharp {
   border-left: 5px solid var(--sharp);
 }
 
+.sharp::before {
+  background-color: var(--sharp);
+}
+
 .mystery {
   border-left: 5px solid var(--mystery);
 }
 
+.mystery::before {
+  background-color: var(--mystery);
+}
+
 .tracker {
   border-left: 5px solid var(--tracker);
+}
+
+.tracker::before {
+  background-color: var(--tracker);
 }

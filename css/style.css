@@ -16,13 +16,13 @@
   --iron: #2b2b2b;
   --gold-accent: #d4af37;
 
-  --boulder: #a15011;
-  --strike: #b83987;
-  --tidal: #1c0f66;
-  --stoker: #ad1616;
-  --tracker: #c9ae17;
-  --mystery: #720858;
-  --sharp: #0f5a12;
+  --boulder: #be5e14;
+  --strike: #90199b;
+  --tidal: #2d17ac;
+  --stoker: #9b1313;
+  --tracker: #17b4c9;
+  --mystery: #0f5a12;
+  --sharp: #c9ae17;
 }
 
 body {
@@ -125,12 +125,7 @@ main {
   left: 25%;
   width: 50%;
   height: 3px;
-  background: linear-gradient(
-    90deg,
-    transparent,
-    var(--gold-accent),
-    transparent
-  );
+  background: linear-gradient(90deg, transparent, var(--gold-accent), transparent);
 }
 
 /* Dragon-themed Cards */
@@ -190,6 +185,7 @@ footer::before {
   letter-spacing: 1px;
   cursor: pointer;
   transition: all 0.3s ease;
+  text-decoration: none;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -207,12 +203,7 @@ footer::before {
 
 .viking-divider {
   height: 2px;
-  background: linear-gradient(
-    90deg,
-    transparent,
-    var(--gold-accent),
-    transparent
-  );
+  background: linear-gradient(90deg, transparent, var(--gold-accent), transparent);
   margin: 2rem 0;
   border: none;
 }

@@ -62,14 +62,16 @@
 }
 
 .dragon-habitat,
-.dragon-foods {
+.dragon-foods,
+.dragon-tameable {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
 }
 
 .habitat-tag,
-.food-tag {
+.food-tag,
+.tameable-tag {
   background: var(--dragon-green);
   color: white;
   padding: 0.5rem 1rem;
@@ -79,6 +81,10 @@
 
 .food-tag {
   background: var(--ember-orange);
+}
+
+.tameable-tag {
+  background: var(--viking-blue);
 }
 
 .back-link {
