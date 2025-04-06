@@ -67,10 +67,10 @@
       "id": 8,
       "name": "Whispering Death",
       "class": "Boulder",
-      "description": "There's an old Viking saying: “If the ground rumbles and whispers, run.” The Whispering Death is a subterranean nightmare, tunneling through rock and soil with ease. Poor eyesight doesn't slow it down — its rows of rotating teeth and iron-like scales make up for that.<br /><br />It has the strongest bite of any dragon, and to make matters worse, it never stops moving. If you hear that eerie whisper, you're already too close.",
-      "habitat": ["dark cave"],
-      "foods": ["none"],
-      "tameable": false
+      "description": "There's an old Viking saying: “If the ground rumbles and whispers, run.” The Whispering Death is a subterranean nightmare, tunneling through rock and soil with ease. Poor eyesight doesn't slow it down — its rows of rotating teeth and iron-like scales make up for that.<br /><br />It has the strongest bite of any dragon, and to make matters worse, it never stops moving. If you hear that eerie whisper, you're already too close. It is believed that, if you manage to slay one of them, they might be carrying an egg. Wonder if they are more friendly at a young age...",
+      "habitat": ["large caves"],
+      "foods": ["basalt", "blackstone", "obsidian"],
+      "tameable": true
     },
     {
       "id": 9,
