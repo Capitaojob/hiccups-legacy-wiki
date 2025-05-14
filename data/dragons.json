@@ -69,8 +69,8 @@
       "class": "Boulder",
       "description": "There's an old Viking saying: “If the ground rumbles and whispers, run.” The Whispering Death is a nightmare, tunneling through rock and soil with ease. Poor eyesight doesn't slow it down — its rows of rotating teeth and iron-like scales make up for that.<br /><br />It has the strongest bite of any dragon, and to make matters worse, it never stops moving. If you hear that eerie whisper, you're already too close.",
       "habitat": ["rocky biomes", "badlands", "stony shores"],
-      "foods": ["none"],
-      "tameable": false
+      "foods": ["basalt", "blackstone", "obsidian"],
+      "tameable": true
     },
     {
       "id": 9,
