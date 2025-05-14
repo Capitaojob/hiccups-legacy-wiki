@@ -67,8 +67,8 @@
       "id": 8,
       "name": "Whispering Death",
       "class": "Boulder",
-      "description": "There's an old Viking saying: “If the ground rumbles and whispers, run.” The Whispering Death is a subterranean nightmare, tunneling through rock and soil with ease. Poor eyesight doesn't slow it down — its rows of rotating teeth and iron-like scales make up for that.<br /><br />It has the strongest bite of any dragon, and to make matters worse, it never stops moving. If you hear that eerie whisper, you're already too close.",
-      "habitat": ["dark cave"],
+      "description": "There's an old Viking saying: “If the ground rumbles and whispers, run.” The Whispering Death is a nightmare, tunneling through rock and soil with ease. Poor eyesight doesn't slow it down — its rows of rotating teeth and iron-like scales make up for that.<br /><br />It has the strongest bite of any dragon, and to make matters worse, it never stops moving. If you hear that eerie whisper, you're already too close.",
+      "habitat": ["rocky biomes", "badlands", "stony shores"],
       "foods": ["none"],
       "tameable": false
     },
@@ -173,6 +173,33 @@
     },
     {
       "id": 20,
+      "name": "Razorwhip",
+      "class": "Sharp",
+      "description": "The Razorwhip is a sleek, metal-hued dragon that haunts misty forests with ghostlike grace and blistering speed. Its blade-thin wings slice through the canopy in silence, and its steel-gray scales shimmer like forged iron beneath moonlight. Incredibly agile, it weaves through trees with lethal precision, its tail as sharp as a honed sword. Though it favors the taste of flowers and fish often plucked from forest streams in mid-flight, the Razorwhip is as elusive as a shadow—seen only in flashes, like a storm that cuts and vanishes.",
+      "habitat": ["forest", "dense forest", "mountain"],
+      "foods": ["pufferfish", "poppy", "dandelion"],
+      "tameable": true
+    },
+    {
+      "id": 21,
+      "name": "Skrill",
+      "class": "Strike",
+      "description": "The Skrill is a fearsome lightning-born dragon, crackling with untamed energy and seething with aggression. It haunts the entire world, drawn to the chaos of thunderstorms where it rides the winds like a bolt of living lightning. Its body pulses with electricity, and arcs of power dance along its wings as it dives with deadly intent. Though it hunts sheep with precise, shocking strikes, the Skrill is no mere predator—it is a tempest given form, feared by all who dwell beneath storm-tossed skies.",
+      "habitat": ["elevated areas when thundering"],
+      "foods": ["mutton", "eel", "cod"],
+      "tameable": true
+    },
+    {
+      "id": 22,
+      "name": "Thunderdrum",
+      "class": "Tidal",
+      "description": "The Thunderdrum is a mighty sea dragon known to emerge from the deepest ocean trenches with a thunderous bellow that can shatter stone and silence storms. Sailors who hear its call know to steer clear, for where the Thunderdrum rises, the sea itself seems to tremble. To attain the trust of this roaring sea monster, it is recommended to make an offering of cod, salmon or tropical fish.",
+      "habitat": ["oceans"],
+      "foods": ["cod", "salmon", "tropical fish"],
+      "tameable": true
+    },
+    {
+      "id": 23,
       "name": "Red Death",
       "class": "Stoker",
       "description": "A legendary and terrifying force of nature, the Red Death is said to be a massive alpha dragon of unparalleled size, strength, and destruction. Its location remains unknown, and few who have encountered it have lived to tell the tale.<br /><br />Some dragon hunters claim to possess maps and clues about how to find this behemoth — but whether anyone should seek it out is another matter entirely.",
