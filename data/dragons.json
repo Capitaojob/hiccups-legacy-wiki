@@ -177,7 +177,7 @@
       "class": "Sharp",
       "description": "The Razorwhip is a sleek, metal-hued dragon that haunts misty forests with ghostlike grace and blistering speed. Its blade-thin wings slice through the canopy in silence, and its steel-gray scales shimmer like forged iron beneath moonlight. Incredibly agile, it weaves through trees with lethal precision, its tail as sharp as a honed sword. Though it favors the taste of flowers and fish often plucked from forest streams in mid-flight, the Razorwhip is as elusive as a shadow—seen only in flashes, like a storm that cuts and vanishes.",
       "habitat": ["forest", "dense forest", "mountain"],
-      "foods": ["pufferfish", "poppy", "dandelion"],
+      "foods": ["pufferfish", "poppy", "blue orchid"],
       "tameable": true
     },
     {
