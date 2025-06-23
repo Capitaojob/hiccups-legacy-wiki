@@ -7,7 +7,8 @@
       "description": "A ghost in the night sky, a whisper of wings before disaster strikes—if you see one, it's already too late. The Night Fury is the fastest dragon known to Vikings, built for speed, stealth, and sheer devastation. Found rarely in taiga forests, this elusive creature wields plasma blasts with uncanny precision—striking harder when hitting its mark rather than simply exploding nearby.<br /><br />But don't be fooled by old tales calling them demons; earn their trust, and you'll have a fiercely loyal companion who just happens to have a weakness for fish and honey. Oh, and watch out—when cloaked in lightning, they vanish into thin air.",
       "habitat": ["taiga", "coniferous forest", "mountain peak"],
       "foods": ["cod", "salmon", "honey comb"],
-      "tameable": true
+      "tameable": true,
+      "dragonEye": false
     },
     {
       "id": 2,
@@ -16,7 +17,8 @@
       "description": "Like the Night Fury, but with a shimmer as bright as the stars. These mysterious dragons are just as fast and powerful, though their disappearing act is a bit different — no crackling lightning, just a graceful fade into nothingness. If you're lucky enough to spot one, consider it a rare gift.<br /><br />They share their cousin's love for fish and honey, but don't expect them to stick around long.",
       "habitat": ["taiga", "coniferous forest", "mountain peak"],
       "foods": ["cod", "salmon", "honeycomb"],
-      "tameable": true
+      "tameable": true,
+      "dragonEye": false
     },
     {
       "id": 3,
@@ -25,7 +27,8 @@
       "description": "The perfect blend of shadow and light, the Night Light is the rare offspring of a Night Fury and a Light Fury. Swift, playful, and strikingly beautiful, these dragons are easily recognized by their black-and-white markings and bright, curious eyes.<br /><br />As a hybrid species, they do not occur naturally in the wild — you'll need to bring a Night Fury and a Light Fury together to witness the birth of one of these extraordinary creatures. Though playful by nature, they inherit their parents' intelligence and agility, making them formidable fliers and skilled hunters.<br /><br />Winning their trust is simple: offer them fish or honey, and you may just gain a loyal companion for life.",
       "habitat": ["taiga", "coniferous forest", "mountain peak"],
       "foods": ["cod", "salmon", "honeycomb"],
-      "tameable": true
+      "tameable": true,
+      "dragonEye": false
     },
     {
       "id": 4,
@@ -34,7 +37,8 @@
       "description": "A beauty with a bite — literally. Once considered part of the Sharp class (and for good reason), the Deadly Nadder is covered in razor-sharp spines, particularly along its tail. Cross one, and you might find yourself with fewer limbs than Gobber.<br /><br />Highly intelligent and agile, this dragon boasts pinpoint accuracy when launching its deadly tail spikes. Add to that its fire-breathing tendencies, and you've got a creature as magnificent as it is dangerous. Found in forests, it has a taste for chicken, salmon, and mutton.",
       "habitat": ["forest", "dense forest", "mountain"],
       "foods": ["chicken", "salmon", "mutton"],
-      "tameable": true
+      "tameable": true,
+      "dragonEye": false
     },
     {
       "id": 5,
@@ -43,7 +47,8 @@
       "description": "Two heads, double the trouble. The Hideous Zippleback is a master of deception — one head spews a thick, noxious gas while the other ignites it, turning the battlefield into a firestorm. Found lurking in swamps and savannas, they are patient hunters, emerging at night to disorient their prey before striking.<br /><br />If you ever find yourself lost in a dense fog that wasn't there a moment ago, best start running.",
       "habitat": ["savanna", "swamp"],
       "foods": ["cod", "honeycomb", "porkchop"],
-      "tameable": true
+      "tameable": true,
+      "dragonEye": false
     },
     {
       "id": 6,
@@ -52,7 +57,8 @@
       "description": "Don't let its slow, boulder-like appearance fool you — this dragon is surprisingly nimble in the air, able to fly sideways, backwards, and in loops that would make even the best Viking pilot dizzy. With a head like a battering ram and a tail to match, a Gronckle is built like a living wrecking ball.<br /><br />Their diet? Rocks. Lots of rocks. And if you're lucky, you can feed them a Gronckle Iron Mixture to create an incredibly strong metal.",
       "habitat": ["plains", "badlands", "mountain", "stony areas"],
       "foods": ["stone", "deepslate", "cobblestone", "other rocks"],
-      "tameable": true
+      "tameable": true,
+      "dragonEye": false
     },
     {
       "id": 7,
@@ -61,7 +67,8 @@
       "description": "If there's one dragon you don't want to anger, it's the Monstrous Nightmare. Massive, aggressive, and fearless, this fire-loving beast coats itself in a highly flammable gel, allowing it to set itself ablaze mid-battle. You'd be wise to keep your distance unless you fancy becoming part of a bonfire.<br /><br />Valuable resource alert: that fiery gel can be collected with an empty canister. Just be sure to stay in one piece while doing it.",
       "habitat": ["coniferous forest", "badlands", "dry areas"],
       "foods": ["apple", "mutton", "beef"],
-      "tameable": true
+      "tameable": true,
+      "dragonEye": false
     },
     {
       "id": 8,
@@ -70,7 +77,8 @@
       "description": "There's an old Viking saying: “If the ground rumbles and whispers, run.” The Whispering Death is a nightmare, tunneling through rock and soil with ease. Poor eyesight doesn't slow it down — its rows of rotating teeth and iron-like scales make up for that.<br /><br />It has the strongest bite of any dragon, and to make matters worse, it never stops moving. If you hear that eerie whisper, you're already too close.",
       "habitat": ["rocky biomes", "badlands", "stony shores"],
       "foods": ["basalt", "blackstone", "obsidian"],
-      "tameable": true
+      "tameable": true,
+      "dragonEye": false
     },
     {
       "id": 9,
@@ -79,7 +87,8 @@
       "description": "Small, swift, and sneaky, these little dragons are more than just a nuisance — they're master thieves, hoarding metal to build their nests. Alone, they can be pesky. In groups, they can blanket an entire battlefield in thick, impenetrable smoke, making them nearly impossible to fight.<br /><br />They favor fish and anything shiny, so guard your treasure carefully — or say goodbye to your weapons.",
       "habitat": ["taiga", "coniferous forest", "mountain peak"],
       "foods": ["cod", "salmon", "gold nugget", "iron nugget"],
-      "tameable": true
+      "tameable": true,
+      "dragonEye": false
     },
     {
       "id": 10,
@@ -88,7 +97,8 @@
       "description": "A glowing specter in the night, the Flightmare is a dragon of legend. Its eerie blue glow comes from a diet rich in glowing algae, and its mist isn't just for show — it can paralyze prey (and Vikings) in their tracks.<br /><br />This dragon is as temperamental as it is territorial, fiercely guarding its algae supply. Many a Viking has been left “scared stiff” by its haunting presence, leading to centuries of ghost stories and spine-chilling warnings.",
       "habitat": ["river side", "rare", "swamp"],
       "foods": ["glow berries", "glow ink sac"],
-      "tameable": true
+      "tameable": true,
+      "dragonEye": false
     },
     {
       "id": 11,
@@ -97,7 +107,8 @@
       "description": "Tiny, gluttonous, and chaotic, Hobgobblers have a simple motto: “If it fits in my mouth, it's food.” This means they'll eat almost anything—including things they probably shouldn't. They may be small, but their insatiable appetite makes them unpredictable.<br /><br />Surprisingly loyal (and annoying), these little dragons will follow you around relentlessly if you feed them fish. Just don't leave them alone near your supplies, unless you enjoy discovering half-eaten weapons and missing valuables.",
       "habitat": ["swamp", "mountain", "hill", "lush areas"],
       "foods": ["cod", "salmon"],
-      "tameable": true
+      "tameable": true,
+      "dragonEye": false
     },
     {
       "id": 12,
@@ -106,7 +117,8 @@
       "description": "A swarm, not a single dragon — Night Terrors are small Stoker class dragons that fly in coordinated groups to intimidate predators and strengthen their defenses. When airborne, they form intricate dragon-like shapes, creating a stunning illusion that confuses enemies and serves as an effective survival tactic.<br /><br />As their name suggests, they prefer darkness, making dense forests and caves their ideal habitat. Their ability to move silently and act as sentinels makes them excellent guardians for villages.",
       "habitat": ["spooky", "dense forest", "dark areas"],
       "foods": ["sweet berries", "glow berries", "apple"],
-      "tameable": true
+      "tameable": true,
+      "dragonEye": false
     },
     {
       "id": 13,
@@ -115,7 +127,8 @@
       "description": "Despite its name, the Terrible Terror is a small, mostly harmless dragon found in various environments. These tiny creatures are neutral by nature, usually minding their own business unless disturbed.<br /><br />Their diet consists primarily of fish, chicken, and bread, and while individually they are quiet, their collective chirping can be quite annoying when gathered in large numbers.",
       "habitat": ["mountain", "plains", "beach"],
       "foods": ["cod", "salmon", "chicken", "bread"],
-      "tameable": true
+      "tameable": true,
+      "dragonEye": false
     },
     {
       "id": 14,
@@ -124,7 +137,8 @@
       "description": "Common Fireworms are among the tiniest dragons known to Vikings. With an orange glow, they resemble living embers, and at times, they ignite their entire bodies in flames — so approach with caution.<br /><br />Although small, Fireworms have a complex social structure. Most males remain tiny, while the females grow into large, territorial queens who fiercely protect their nests. While generally non-aggressive, it's wise to keep a safe distance from their domains.",
       "habitat": ["spooky", "dense forest", "dark areas"],
       "foods": ["none"],
-      "tameable": false
+      "tameable": false,
+      "dragonEye": false
     },
     {
       "id": 15,
@@ -133,7 +147,8 @@
       "description": "A massive, dragon-eating beast, the Death Song is a fearsome predator found in lush biomes. It lures other dragons with its haunting, siren-like call before ensnaring them in molten amber spit, which hardens upon contact. Fire is the best way to break free, though the amber eventually crumbles on its own.<br /><br />Despite its danger, the amber is an incredibly strong and valuable material. If collected from the ground or melted down, it can be used to craft useful tools.",
       "habitat": ["jungle", "lush areas"],
       "foods": ["rabbit", "mutton", "beef"],
-      "tameable": true
+      "tameable": true,
+      "dragonEye": false
     },
     {
       "id": 16,
@@ -142,7 +157,8 @@
       "description": "Unlike most dragons, Speed Stingers are highly adapted for life on the ground. Agile and aggressive, these small but swift creatures hunt in coordinated packs, making them formidable predators in forests and mountainous regions.<br /><br />With a high crest and a distinctive red tail spike, they are not only intelligent but also deadly. Their tail can inject a potent venom capable of temporarily paralyzing prey—so avoid getting stung at all costs.",
       "habitat": ["forest", "dense forest", "mountain"],
       "foods": ["tropical fish", "pufferfish"],
-      "tameable": false
+      "tameable": false,
+      "dragonEye": false
     },
     {
       "id": 17,
@@ -151,7 +167,8 @@
       "description": "A rare and mysterious Strike class dragon, the Songwing harnesses the power of sound, unleashing devastating, concentrated sound waves similar to the Wardens. Found near coastlines and forests, these dragons are neutral toward humans and rarely encountered.<br /><br />Little is known about their behaviors, but some believe they survive on a diet of fungi and roots — though this has yet to be confirmed.",
       "habitat": ["forest", "beach", "mountain"],
       "foods": ["brown mushroom", "red mushroom", "dragon root slice"],
-      "tameable": true
+      "tameable": true,
+      "dragonEye": true
     },
     {
       "id": 18,
@@ -160,7 +177,8 @@
       "description": "This small but vicious Sharp class dragon is a menace to those who wander through taigas and mountains. Grim Gnashers are incredibly aggressive and have a unique ability—launching their own teeth at high speeds as projectiles.<br /><br />They cannot be tamed, and their relentless nature makes them a constant threat in the wild. If you hear rapid clicking sounds, it's best to retreat before they attack.",
       "habitat": ["taiga", "coniferous forest", "mountain peak"],
       "foods": ["tropical fish", "beef", "mutton"],
-      "tameable": false
+      "tameable": false,
+      "dragonEye": false
     },
     {
       "id": 19,
@@ -169,7 +187,8 @@
       "description": "Elusive and dangerous, the Snow Wraith is an aggressive Strike-class dragon known for its hostility toward Vikings, often attacking on sight. Native to snowy biomes, these creatures possess a chilling breath capable of matching a Night Fury's firepower — though with a shorter range.<br/<br/>Legends tell of an unusual weakness: striking a Snow Wraith with a wooden staff might loosen its razor-sharp teeth. What they could be used for, however, remains a mystery...",
       "habitat": ["snowy areas"],
       "foods": ["rabbit", "porkchop", "egg"],
-      "tameable": true
+      "tameable": true,
+      "dragonEye": false
     },
     {
       "id": 20,
@@ -177,8 +196,9 @@
       "class": "Sharp",
       "description": "The Razorwhip is a sleek, metal-hued dragon that haunts misty forests with ghostlike grace and blistering speed. Its blade-thin wings slice through the canopy in silence, and its steel-gray scales shimmer like forged iron beneath moonlight. Incredibly agile, it weaves through trees with lethal precision, its tail as sharp as a honed sword. Though it favors the taste of flowers and fish often plucked from forest streams in mid-flight, the Razorwhip is as elusive as a shadow—seen only in flashes, like a storm that cuts and vanishes.",
       "habitat": ["forest", "dense forest", "mountain"],
-      "foods": ["pufferfish", "poppy", "dandelion"],
-      "tameable": true
+      "foods": ["pufferfish", "poppy", "blue orchid"],
+      "tameable": true,
+      "dragonEye": true
     },
     {
       "id": 21,
@@ -187,7 +207,8 @@
       "description": "The Skrill is a fearsome lightning-born dragon, crackling with untamed energy and seething with aggression. It haunts the entire world, drawn to the chaos of thunderstorms where it rides the winds like a bolt of living lightning. Its body pulses with electricity, and arcs of power dance along its wings as it dives with deadly intent. Though it hunts sheep with precise, shocking strikes, the Skrill is no mere predator—it is a tempest given form, feared by all who dwell beneath storm-tossed skies.",
       "habitat": ["elevated areas when thundering"],
       "foods": ["mutton", "eel", "cod"],
-      "tameable": true
+      "tameable": true,
+      "dragonEye": true
     },
     {
       "id": 22,
@@ -196,7 +217,8 @@
       "description": "The Thunderdrum is a mighty sea dragon known to emerge from the deepest ocean trenches with a thunderous bellow that can shatter stone and silence storms. Sailors who hear its call know to steer clear, for where the Thunderdrum rises, the sea itself seems to tremble. To attain the trust of this roaring sea monster, it is recommended to make an offering of cod, salmon or tropical fish.",
       "habitat": ["oceans"],
       "foods": ["cod", "salmon", "tropical fish"],
-      "tameable": true
+      "tameable": true,
+      "dragonEye": true
     },
     {
       "id": 23,
@@ -205,7 +227,8 @@
       "description": "A legendary and terrifying force of nature, the Red Death is said to be a massive alpha dragon of unparalleled size, strength, and destruction. Its location remains unknown, and few who have encountered it have lived to tell the tale.<br /><br />Some dragon hunters claim to possess maps and clues about how to find this behemoth — but whether anyone should seek it out is another matter entirely.",
       "habitat": ["unknown"],
       "foods": ["none"],
-      "tameable": false
+      "tameable": false,
+      "dragonEye": false
     }
   ]
 }

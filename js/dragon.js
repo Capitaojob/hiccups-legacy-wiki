@@ -71,6 +71,13 @@ document.addEventListener("DOMContentLoaded", function () {
            </div>
          </div>
 
+         <div class="dragon-info-section">
+           <h2>Needs the dragon eye to spawn?</h2>
+           <div class="dragon-tameable">
+             <span class="tameable-tag">${dragon.dragonEye}</span>
+           </div>
+         </div>
+
          <a href="dragons.html" class="back-link">Back to Dragons Page</a>
        </div>
      `;
